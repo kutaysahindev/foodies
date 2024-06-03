@@ -1,3 +1,10 @@
+import classes from "./page.module.css";
+
 export default function MealsPage() {
-  return <h1>Meals Page</h1>;
+  return (
+    <>
+      <header className={classes.header}></header>
+      <main className={classes.main}></main>
+    </>
+  );
 }
